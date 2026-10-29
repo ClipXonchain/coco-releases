@@ -28,7 +28,7 @@ A kitten that lives in your Mac's notch and watches crypto news, Binance prices,
 
 Right-click › Open no longer works on macOS 15 and later, so Open Anyway is the way. You'll need it again after each update until Coco is notarized.
 
-**Check your download (optional).** `shasum -a 256 ~/Downloads/Coco.dmg` should print `8438dc4602fdb58c9990763f3fa5518f0c3237533cb353f7314ef02a132c1677` for v0.1.3 (2,968,723 bytes). If it differs, delete the file and download it again.
+**Check your download (optional).** `shasum -a 256 ~/Downloads/Coco.dmg` should print `1213a44bdfaaa6ce25037ab2882b896042545c22798dd22d45b3575d413ed4f6` for v0.1.3 (2,968,723 bytes). If it differs, delete the file and download it again.
 
 Coco appears in the notch (or at the top of the screen on Macs without one) and in the menu bar. Try **Demo events** in the menu bar to see what alerts look like.
 
