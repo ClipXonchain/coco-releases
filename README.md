@@ -22,7 +22,13 @@ A kitten that lives in your Mac's notch and watches crypto news, Binance prices,
 
 1. Download **`Coco.dmg`** from the [latest release](https://github.com/ClipXonchain/coco-releases/releases/latest).
 2. Open it and drag **Coco** to **Applications**.
-3. The first time, **right-click Coco and choose Open**. This build isn't notarized by Apple yet, so macOS asks once.
+3. Open Coco from Applications. macOS says **"Coco" Not Opened**: this build isn't notarized by Apple yet, and macOS shows that for any app that isn't. Click **Done**.
+4. Open **System Settings › Privacy & Security** and scroll down to **Security**. Next to "Coco" was blocked to protect your Mac, click **Open Anyway**, then confirm with Touch ID or your password. If the button isn't there, open Coco once more and look again.
+5. Coco appears in the notch (or at the top of the screen on Macs without one) and in the menu bar.
+
+Right-click › Open no longer works on macOS 15 and later, so Open Anyway is the way. You'll need it again after each update until Coco is notarized.
+
+**Check your download (optional).** `shasum -a 256 ~/Downloads/Coco.dmg` should print `8438dc4602fdb58c9990763f3fa5518f0c3237533cb353f7314ef02a132c1677` for v0.1.2 (2,968,723 bytes). If it differs, delete the file and download it again.
 
 Coco appears in the notch (or at the top of the screen on Macs without one) and in the menu bar. Try **Demo events** in the menu bar to see what alerts look like.
 
