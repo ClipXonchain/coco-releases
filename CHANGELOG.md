@@ -2,6 +2,11 @@
 
 What changed in each version of Coco. Downloads are on the [releases page](https://github.com/ClipXonchain/coco-releases/releases).
 
+## 0.2.3 · 10 Nov 2026
+
+- **Easier to find.** Mac: Coco shows in the Dock and a click opens the island (Settings › General › Show Coco in the Dock turns it off). Windows: Coco shows in the taskbar and the Start menu, so you can pin it.
+- **Windows is now a normal installer**, `CoCo-Setup-<version>.exe`: it installs for your user, adds Start menu and Desktop shortcuts, and shows under Apps & features. Update Now installs the new version in place. If you ran the old portable exe, run the installer once.
+
 ## 0.2.2 · 10 Nov 2026
 
 - **The X tab has three views.** **Following** is your accounts, with alerts. **X Feed** is a live feed of every post from the accounts Binance's Social tracker covers, with each account's picture and the post's image. **List** is every account, searchable and grouped (Crypto, Security), with a Follow button.

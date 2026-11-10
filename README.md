@@ -55,7 +55,7 @@ Crypto and market news breaks in many places at once: exchange announcements, ne
 2. Open it and drag **Coco** onto **Applications**. Then eject the disk and open Coco **from Applications** (not from the disk image).
 3. macOS says **"Coco" Not Opened**: this build isn't notarized by Apple yet, and macOS shows that for any app that isn't. Click **Done**.
 4. Open **System Settings › Privacy & Security** and scroll to **Security**. Next to "Coco was blocked to protect your Mac", click **Open Anyway** and confirm with Touch ID or your password. If the button isn't there, open Coco once more and look again.
-5. Coco appears in the notch and in the menu bar. Try **Demo events** in the menu bar to see what alerts look like.
+5. Coco appears in the notch, the menu bar and the Dock (turn the Dock icon off in Settings). Try **Demo events** in the menu bar to see what alerts look like.
 
 Needs an Apple Silicon Mac with macOS 15 or later. Right-click › Open no longer works on macOS 15, so Open Anyway is the way. Updating from inside Coco (see Updates) doesn't need it again; a copy you download by hand does, until Coco is notarized.
 
@@ -63,12 +63,12 @@ Needs an Apple Silicon Mac with macOS 15 or later. Right-click › Open no longe
 
 ## Install on Windows
 
-1. Download **`CoCo-<version>.exe`** from the [latest release](https://github.com/ClipXonchain/coco-releases/releases/latest). It's one portable file: there's no installer.
-2. Put it somewhere you'll keep it (your Desktop or a Coco folder) and double-click it.
-3. Windows says **Windows protected your PC**: the app isn't signed yet, and SmartScreen shows that for any app it doesn't recognise. Click **More info**, check the name reads `CoCo-<version>.exe`, then **Run anyway**.
-4. Coco appears at the top of your screen and in the system tray. Turn on **Settings › General › Startup › Open Coco at login** if you want it after a restart.
+1. Download **`CoCo-Setup-<version>.exe`** from the [latest release](https://github.com/ClipXonchain/coco-releases/releases/latest).
+2. Double-click it. Coco installs for your user in a few seconds (no admin password), adds itself to the Start menu and your Desktop, and starts.
+3. Windows says **Windows protected your PC**: the app isn't signed yet, and SmartScreen shows that for any app it doesn't recognise. Click **More info**, check the name reads `CoCo-Setup-<version>.exe`, then **Run anyway**.
+4. Coco appears at the top of your screen and in the system tray. To find Coco later, search **Coco** in the Start menu; right-click it there or in the taskbar to **Pin to taskbar**. Turn on **Settings › General › Startup › Open Coco at login** if you want it after a restart.
 
-Needs Windows 10 or 11 (64-bit). The Windows app has everything the Mac one has except Telegram. To check the download, run `Get-FileHash $HOME\Downloads\CoCo-<version>.exe` in PowerShell and compare it with the release notes.
+Needs Windows 10 or 11 (64-bit). The Windows app has everything the Mac one has except Telegram. To check the download, run `Get-FileHash $HOME\Downloads\CoCo-Setup-<version>.exe` in PowerShell and compare it with the release notes.
 
 ## Free and Premium
 
@@ -99,7 +99,7 @@ Coco 0.2.0 and older can't do this yet: install 0.2.1 or later by hand once, fro
 
 **Does it work on an Intel Mac?** Not yet. This build is for Apple Silicon.
 
-**Is there a Windows version?** Yes: `CoCo-<version>.exe` on the same releases page, for Windows 10 and 11 (64-bit). It has no Telegram yet.
+**Is there a Windows version?** Yes: `CoCo-Setup-<version>.exe` on the same releases page, for Windows 10 and 11 (64-bit). It has no Telegram yet.
 
 **Update Now asks for nothing but doesn't work.** Coco has to be in Applications (Mac) or running from a folder you can write to (Windows). Otherwise it opens the download page; install that one by hand.
 
