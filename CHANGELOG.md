@@ -2,6 +2,36 @@
 
 What changed in each version of Coco. Downloads are on the [releases page](https://github.com/ClipXonchain/coco-releases/releases).
 
+## 0.2.2 · 10 Nov 2026
+
+- **The X tab has three views.** **Following** is your accounts, with alerts. **X Feed** is a live feed of every post from the accounts Binance's Social tracker covers, with each account's picture and the post's image. **List** is every account, searchable and grouped (Crypto, Security), with a Follow button.
+- **Voices is gone.** X Feed already shows every account, so there's no Show button any more. Accounts you follow keep working.
+- Update from 0.2.1 with **Update Now**. Mac and Windows.
+
+## 0.2.1 · 10 Nov 2026
+
+- **Update Now.** Coco downloads the new version, checks it, installs it and restarts by itself, on Mac and Windows. This is the last update you install by hand: 0.2.0 and older can't do it yet.
+- On Windows the portable `.exe` swaps itself in after Coco quits.
+
+## 0.2.0 · 9 Nov 2026
+
+- **Settings is simpler:** the X section is gone. Follow accounts from the X tab.
+- **Lost your key?** now opens a message to bnbcaptain on X, instead of an email form.
+
+## 0.1.9 · 9 Nov 2026
+
+- **Check for Updates** in Settings › About, and a **Download Update** button in General and About when a newer version is out. Mac and Windows.
+
+## 0.1.8 · 9 Nov 2026
+
+- **A one-row compact bar:** Coco, the newest headline and the count. Headlines at every level show, including Badge-level news. A long headline scrolls left like a news ticker, and on Macs with a notch it sits in the right ear. Same bar on Windows.
+
+## 0.1.7 · 7 Nov 2026
+
+- **Coco for Windows.** Every release now has a portable `CoCo-<version>.exe` next to the Mac DMG. Windows 10 and 11, 64-bit, everything except Telegram.
+- **Wallet tab.** Watch up to three EVM or Solana addresses: each wallet's total and top holdings, and alerts when tokens arrive, leave or get swapped. Spam and dust stay out. Addresses only: Coco never asks for keys or seed phrases.
+- **Fixed:** the Markets price list could freeze while Top Movers kept updating. Coco now reconnects the price feed when it goes silent.
+
 ## 0.1.6 · 3 Nov 2026
 
 - **Open Coco at login.** A new switch in Settings › General › Startup, so Coco is back in the notch and menu bar after a restart. Coco has to be in your Applications folder for it to work.
